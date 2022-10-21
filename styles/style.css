@@ -337,7 +337,7 @@ input[type=text] {
     color: #363636;
   }
 
-label[for=name] {
+.input_form_1 label.name {
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
@@ -539,7 +539,7 @@ h3.black{
     background: none;
 }
     
-.input_form_2 label[for=name] {
+.input_form_2 label.name  {
     font-size: 13px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
