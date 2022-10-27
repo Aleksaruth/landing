@@ -12,7 +12,7 @@
     <header class="header">
         <div class="wrap">
             <div class="header_logo">IC "Repair Design Project"</div>
-            <nav class="header_nav">
+            <nav class="header_nav none">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
@@ -22,7 +22,7 @@
                     <li><a href="#">CONTACTS</a></li>
             </nav>
             <span class="phone"><a href="tel:+79287683239">+7 (928) 768-32-39</a></span>
-            <button class="button">Request a call</button>
+            <button class="button none">Request a call</button>
         </div>
     </header>
 
@@ -36,23 +36,26 @@
                         with work time saving up to 45 days and 20% from<br>
                         cost of materials due to the organization of work</p>
                     <button class="button">CALCULATE THE COST</button>
-                    <button class="button_border">SUBMIT YOUR APPLICATION</button>
+                    <button class="button_border none">SUBMIT YOUR APPLICATION</button>
+                    <button class="button_border mobile">APPLICATION</button>
                 </div> 
             </div>
         </section>
         
         <section class="project" id="projects">
             <div class="wrap">
-                <ul class="project_city">
+                <ul class="project_city none">
                     <li class="active">Rostov-on-Don, Admiral</li>
                     <li>Sochi Thieves</li>
                     <li>Rostov-on-Don Patriotic</li>
                 </ul>
+                
                 <div class="project_block">
                     <div class="project_text">
                         <h2>Completed<br>projects</h2>
                         <p class="project_p">Only a small part of the work performed by our company is presented<br> on the site. For 14 years on in the construction<br> 
                             market we have made happy more than 1000 families</p>
+                            <div class="project_img_mobile arrow_slider"><img src="./images/project_item_photo.png"></div>    
                         <div class="project_item_text">
                             <div class="project_item_desc">
                                 <h3>City:</h3>
@@ -72,7 +75,7 @@
                                 <span>Upon request</span>
                             </div>
                         </div>
-                        <div class="project_slider">
+                        <div class="project_slider none">
                             <div class="left_arrow"></div>
                             <div class="dots_slider">
                                 <div class="slider slider_active"></div>
@@ -82,7 +85,8 @@
                             <div class="right_arrow"></div>
                         </div>
                     </div>
-                    <img src="./images/project_item_photo.png">
+
+                    <div class="project_img_desk none"><img src="./images/project_item_photo.png"></div>
 
                 </div>
             </div>
@@ -96,11 +100,11 @@
                 </div>
                 <div class="video">
                 </div>
-                <p class="online_control_text">At each facility, a camera is installed that broadcasts the progress of work on the<br> clock. At any time, you can go to our website and monitor the progress of work in<br> your apartment. You can watch the live broadcast from one of our facilities!<br>
+                <p class="online_control_text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br>
                     Leave a request below and you will receive a link to the broadcast.</p>
             
                 <form class="form_1">
-                   <div class="input_form_1">    
+ 
                         <div class="input_name">
                             <label class="name">Name</label><input placeholder="What is your name:" type="text">
                         </div>
@@ -111,7 +115,6 @@
 
                         <button class="btn_form_1">Submit</button>
                                             
-                    </div> 
                     <div class="politics">
                         <label class="label label_form_1">
                             <input type="checkbox" class="galk">
@@ -182,7 +185,7 @@
 
                     </div>
                 </div>    
-                    <div class="repair_">
+                    <div class="repair_ none">
                         <div class="wrap">
                             <div class="repair_end">
                                 <div class="left">
@@ -228,7 +231,7 @@
                             </div>
                         </div>
                     </div> 
-                <div class="wrap"> 
+                <div class="wrap none"> 
                     <div class="form_2_end">
                         <p class="form_2_end_text">Help save 10 - 20% of the<br>
                         cost of materials</p>
@@ -241,7 +244,7 @@
                 <div class="styles">
                     <h2>We realize your<br>
                         wildest fantasies</h2>
-                    <ul class="realize_ul">
+                    <ul class="realize_ul none">
                         <li class="active">American classic</li>
                         <li>Empire</li>
                         <li>Classical</li>
@@ -255,18 +258,18 @@
                         <li>Eclecticism</li>
                     </ul>
                 </div>
-                <div class="galery">
+                <div class="galery arrow_slider">
                     
                         <img src="./images/left-1.jpg">
-                        <img src="./images/right-1.jpg">
-                        <img src="./images/left-2.jpg">
-                        <img src="./images/right-2.jpg">
+                        <img class="none" src="./images/right-1.jpg">
+                        <img class="none" src="./images/left-2.jpg">
+                        <img class="none" src="./images/right-2.jpg">
                 </div>
             </div>
         </section>
 
         <section class="clients">
-            <div class="wrap">
+            <div class="wrap  none">
                 <h3 class="black">our clients</h3>
                 <div class="online_icon headline_icon">
                     <img src="./images/svg/clients.svg">
@@ -354,10 +357,9 @@
 
         <section class="contacts_block">
             
-            
-                <div class="wrap">
-                    <div class="contacts">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
-                        Decorum Tel +7 (928) 768 32 29</div>
+                            <div class="wrap">
+                    <div class="contacts">Rostov-on-Don, Nansen St., 239 Shopping Center
+                        Decorum Tel <br>+7 (928) 768 32 29</div>
                     <div class="social">
                         <a class="mail" href="mailto:test@mail.ru" target="_blank"></a>
                         <a class="instagram" href="#" target="_blank"></a>
@@ -373,7 +375,7 @@
     <footer class="footer">
         <div class="wrap">
             <div class="footer_logo">IC "Repair Design Project"</div>
-            <nav class="footer_nav">
+            <nav class="footer_nav none">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
@@ -383,7 +385,7 @@
                     <li><a href="#">CONTACTS</a></li>
             </nav>
             <span class="phone"><a href="tel:+79287683239">+7 (928) 768-32-39</a></span>
-            <button class="button">Request a call</button>
+            <button class="button none">Request a call</button>
         </div>
     </footer>
 </body>
